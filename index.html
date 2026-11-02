@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chess Cooldown adds a deliberate reflection pause after rated live games on Chess.com.">
+  <title>Chess Cooldown — pause, reflect, reset</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Chess Cooldown home">
+      <span class="brand-mark" aria-hidden="true">♟</span>
+      <span>Chess Cooldown</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="privacy/">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">A Chrome extension for Chess.com</p>
+      <h1 id="hero-title">Pause the streak.<br>Play the next game on purpose.</h1>
+      <p class="lede">Chess Cooldown adds a short reflection and a cooling-off period after each rated live game—so one result does not automatically become five more.</p>
+      <div class="actions">
+        <span class="button button-disabled" aria-label="Chrome Web Store link coming soon">Chrome Web Store — coming soon</span>
+        <a class="text-link" href="privacy/">Read the privacy policy <span aria-hidden="true">→</span></a>
+      </div>
+      <p class="placeholder-note"><strong>Store link placeholder:</strong> the Chrome Web Store listing is awaiting approval.</p>
+    </section>
+
+    <section class="section" aria-labelledby="how-title">
+      <div>
+        <p class="section-number" aria-hidden="true">01</p>
+        <h2 id="how-title">How it works</h2>
+      </div>
+      <ol class="steps">
+        <li><strong>Finish a rated live game.</strong><span>Chess Cooldown waits until Chess.com shows the game-over result.</span></li>
+        <li><strong>Write one line.</strong><span>A brief reflection is required before the timer starts.</span></li>
+        <li><strong>Take a breath.</strong><span>The default cooldown is 2 minutes after a loss and 30 seconds after a win or draw.</span></li>
+      </ol>
+      <p class="supporting">You can adjust cooldowns, set an optional daily rated-game cap, skip a cooldown with the skip recorded, and export your local reflection log as JSON.</p>
+    </section>
+
+    <section class="section guardrails" aria-labelledby="guardrails-title">
+      <div>
+        <p class="section-number" aria-hidden="true">02</p>
+        <h2 id="guardrails-title">Deliberately limited</h2>
+      </div>
+      <div>
+        <p class="statement">It notices that a rated live game ended. That is all it needs to know.</p>
+        <ul class="check-list">
+          <li>Does not read the board, moves, notation, positions, evaluation, or clock</li>
+          <li>Does not use an engine or provide game assistance</li>
+          <li>Does not click, submit, or play anything on Chess.com</li>
+          <li>Does not make network requests or use remote code</li>
+          <li>Does not use cookies, credentials, analytics, ads, or trackers</li>
+          <li>Stores data only in <code>chrome.storage.local</code>, unless you export your JSON log</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="privacy-callout" aria-labelledby="privacy-title">
+      <p class="eyebrow">Private by design</p>
+      <h2 id="privacy-title">Your reflections stay on your device.</h2>
+      <p>The developer cannot access them. Chess Cooldown has no server and sends nothing to analytics, advertisers, or other third parties.</p>
+      <a class="text-link" href="privacy/">See exactly what is handled <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Chess Cooldown is an independent extension and is not affiliated with Chess.com.</p>
+    <a href="privacy/">Privacy policy</a>
+  </footer>
+</body>
+</html>

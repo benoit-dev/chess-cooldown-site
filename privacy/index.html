@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Chess Cooldown Chrome extension.">
+  <title>Privacy Policy — Chess Cooldown</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="Chess Cooldown home">
+      <span class="brand-mark" aria-hidden="true">♟</span>
+      <span>Chess Cooldown</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a aria-current="page" href="./">Privacy</a>
+    </nav>
+  </header>
+
+  <main id="main" class="policy">
+    <header class="policy-header">
+      <p class="eyebrow">Chess Cooldown</p>
+      <h1>Privacy Policy</h1>
+      <p class="effective-date">Effective November 2, 2026</p>
+      <p class="lede">Chess Cooldown is designed to work locally. It has no developer-operated server, makes no network requests, and does not send your information anywhere.</p>
+    </header>
+
+    <div class="policy-layout">
+      <aside aria-label="Policy summary">
+        <p><strong>In short</strong></p>
+        <p>Your settings and reflection history stay in Chrome's local extension storage on your device. The developer cannot access them.</p>
+      </aside>
+
+      <article>
+        <section aria-labelledby="local-data">
+          <h2 id="local-data">Data handled locally</h2>
+          <p>To provide its features, Chess Cooldown handles the following information on your device:</p>
+          <ul>
+            <li>the current Chess.com page path;</li>
+            <li>game-over result text shown by Chess.com and the detected result (win, loss, or draw);</li>
+            <li>reflection notes you enter;</li>
+            <li>cooldown status, timing, and settings;</li>
+            <li>your local daily count of detected rated live games; and</li>
+            <li>records of completed or skipped cooldowns.</li>
+          </ul>
+          <p>The page path, detected result, and game-over text may be combined into a limited fingerprint stored locally to avoid handling the same game-over event more than once. Chess Cooldown does not read the chessboard, moves, notation, positions, evaluation, or clocks. It does not read cookies or account credentials.</p>
+        </section>
+
+        <section aria-labelledby="use">
+          <h2 id="use">How the data is used</h2>
+          <p>This information is used only for the extension's core features: recognizing the end of an eligible rated live game, showing the reflection and cooldown screens, applying your settings and optional daily cap, preventing duplicate handling, keeping your local reflection log, and creating a JSON export when you request one.</p>
+          <p>While a game is in progress, the extension only observes the page for a supported game-over signal. It does not provide analysis or take any gameplay action.</p>
+        </section>
+
+        <section aria-labelledby="storage">
+          <h2 id="storage">Storage and transmission</h2>
+          <p>All extension data is stored in <code>chrome.storage.local</code> on your device. Nothing is sent to the developer, developer-operated servers, analytics services, advertisers, or other third parties. The developer cannot access your stored data.</p>
+          <p>Your reflection log leaves extension storage only when you choose to export it. Export creates a JSON file through your browser for you to save and control.</p>
+        </section>
+
+        <section aria-labelledby="sharing">
+          <h2 id="sharing">No sale, transfer, advertising, or credit use</h2>
+          <p>Chess Cooldown does not sell or transfer your data. It does not use your data for advertising, profiling, or determining creditworthiness or lending eligibility.</p>
+        </section>
+
+        <section aria-labelledby="retention">
+          <h2 id="retention">Retention</h2>
+          <p>Data remains in Chrome's local extension storage until you clear the extension's stored data or remove the extension. Exported JSON files remain wherever you chose to save them and are under your control.</p>
+        </section>
+
+        <section aria-labelledby="code-behavior">
+          <h2 id="code-behavior">No remote code or automated Chess.com actions</h2>
+          <p>All extension code is included in the installed extension. Chess Cooldown does not download or execute remote code. It does not make automated clicks, submit content to Chess.com, start games, or play moves. It does not use a chess engine or provide game analysis.</p>
+        </section>
+
+        <section aria-labelledby="contact">
+          <h2 id="contact">Contact</h2>
+          <p>Questions about this policy can be sent to: <strong class="placeholder">CONTACT_EMAIL_TBD</strong></p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>Chess Cooldown is an independent extension and is not affiliated with Chess.com.</p>
+    <a href="../">Back to home</a>
+  </footer>
+</body>
+</html>
