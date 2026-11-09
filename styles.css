@@ -27,7 +27,7 @@ code { padding: 0.12em 0.35em; border-radius: 0.25em; background: #e5e9e1; font-
 .site-header, footer { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
 .site-header { display: flex; align-items: center; justify-content: space-between; min-height: 84px; border-bottom: 1px solid var(--line); }
 .brand { display: inline-flex; align-items: center; gap: 0.65rem; color: var(--ink); font-weight: 780; text-decoration: none; letter-spacing: -0.02em; }
-.brand-mark { display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: var(--green); color: white; font-size: 1.2rem; }
+.brand-mark { display: block; width: 2.25rem; height: 2.25rem; }
 nav a { font-weight: 700; }
 
 main { width: min(1160px, calc(100% - 40px)); margin-inline: auto; }
