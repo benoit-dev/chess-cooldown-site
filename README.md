@@ -20,8 +20,8 @@ GitHub Pages deploys directly from the `main` branch at the repository root (`/`
 
 - Site: <https://benoit-dev.github.io/chess-cooldown-site/>
 - Privacy policy: <https://benoit-dev.github.io/chess-cooldown-site/privacy/>
+- Chrome Web Store: <https://chromewebstore.google.com/detail/chess-cooldown/bmepbmabconmklpkjamfiakmnknigbhe>
 
 ## Open placeholders
 
 - Replace `CONTACT_EMAIL_TBD` in `privacy/index.html` with the public support/privacy contact address.
-- Replace the clearly marked Chrome Web Store placeholder in `index.html` after the listing is approved.
